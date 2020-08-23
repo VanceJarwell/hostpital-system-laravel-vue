@@ -1,0 +1,326 @@
+<div class="product-page">
+                      <div class="categories-tree js-categories-tree">
+                        <fieldset class="form-group">
+                          <div class="ui-widget">
+                            <div class="search search-with-icon">
+                              <input type="text" id="ps-select-product-category" class="form-control autocomplete search-cat mb-1 ui-autocomplete-input" placeholder="Search categories" autocomplete="off">
+                            </div>
+                            <label class="form-control-label text-uppercase">Associated categories</label>
+                            <div id="ps_categoryTags" class="pstaggerTagsWrapper" style="display: block;">
+                              <span class="pstaggerTag"><span data-id="2" title="Home"> Home</span><a class="pstaggerClosingCross" href="#" data-id="2">x</a></span></div>
+
+                              <div id="ps_categoryTree" class="hide">
+                                [{"id":"2","name":"Home","breadcrumb":"Home"},{"id":"3","name":"Clothes","breadcrumb":"Home &gt; Clothes"},{"id":"4","name":"Men","breadcrumb":"Home &gt; Clothes &gt; Men"},{"id":"5","name":"Women","breadcrumb":"Home &gt; Clothes &gt; Women"},{"id":"6","name":"Accessories","breadcrumb":"Home &gt; Accessories"},{"id":"7","name":"Stationery","breadcrumb":"Home &gt; Accessories &gt; Stationery"},{"id":"8","name":"Home Accessories","breadcrumb":"Home &gt; Accessories &gt; Home Accessories"},{"id":"9","name":"Art","breadcrumb":"Home &gt; Art"}]
+                              </div>
+
+                              <div id="form_step1_id_category_default" style="display: none;">
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_0" name="form[step1][id_category_default]" required="required" value="2" checked="checked"> Home</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_1" name="form[step1][id_category_default]" required="required" value="3"> Clothes</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_2" name="form[step1][id_category_default]" required="required" value="6"> Accessories</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_3" name="form[step1][id_category_default]" required="required" value="9"> Art</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_4" name="form[step1][id_category_default]" required="required" value="7">Stationery</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_5" name="form[step1][id_category_default]" required="required" value="4">Men</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_6" name="form[step1][id_category_default]" required="required" value="5">Women</label>
+                                </div>
+                                <div class="radio">                                                        
+                                  <label class="required"><input type="radio" id="form_step1_id_category_default_7" name="form[step1][id_category_default]" required="required" value="8">Home Accessories</label>
+                                </div>
+                              </div>
+                              <div class="categories-tree-actions js-categories-tree-actions">
+                                <span class="form-control-label" id="categories-tree-expand"><i class="material-icons">expand_more</i>Expand</span>
+                                <span class="form-control-label" id="categories-tree-reduce"><i class="material-icons">expand_less</i>Collapse</span>
+                              </div>
+
+                              <div id="form_step1_categories" class="category-tree-overflow">
+                                <ul class="category-tree">
+                                  <li class="form-control-label text-right main-category">Main category</li>
+                                  <li class="less">
+                                    <div class="checkbox">
+                                      <label>
+                                        <input type="checkbox" name="form[step1][categories][tree][]" value="2" class="category" checked="&quot;checked&quot;"> Home
+                                        <input type="radio" value="2" name="ignore" class="default-category">
+                                      </label>
+                                    </div> 
+
+                                    <ul>
+                                      <li class="less">
+                                        <div class="checkbox">
+                                          <label>
+                                            <input type="checkbox" name="form[step1][categories][tree][]" value="3" class="category"> Clothes
+                                            <input type="radio" value="3" name="ignore" class="default-category">
+                                          </label>
+                                        </div>   
+                                        <ul>
+                                          <li>
+                                            <div class="checkbox">
+                                              <label>
+                                                  <input type="checkbox" name="form[step1][categories][tree][]" value="4" class="category"> Men
+                                                  <input type="radio" value="4" name="ignore" class="default-category">
+                                              </label>
+                                            </div>            
+                                          </li>
+                                          <li>
+                                            <div class="checkbox">
+                                              <label>
+                                                <input type="checkbox" name="form[step1][categories][tree][]" value="5" class="category"> Women
+                                                <input type="radio" value="5" name="ignore" class="default-category">
+                                              </label>
+                                            </div>            
+                                          </li>
+                                        </ul>
+                                      </li>
+                                      <li class="less">
+                                        <div class="checkbox">
+                                          <label>
+                                            <input type="checkbox" name="form[step1][categories][tree][]" value="6" class="category"> Accessories
+                                            <input type="radio" value="6" name="ignore" class="default-category">
+                                          </label>
+                                        </div>                    
+                                        <ul>
+                                          <li>
+                                            <div class="checkbox">
+                                              <label>
+                                                <input type="checkbox" name="form[step1][categories][tree][]" value="7" class="category">Stationery
+                                                <input type="radio" value="7" name="ignore" class="default-category">
+                                              </label>
+                                            </div>            
+                                          </li>
+                                          <li>
+                                            <div class="checkbox">
+                                              <label>
+                                                <input type="checkbox" name="form[step1][categories][tree][]" value="8" class="category"> Home Accessories
+                                                <input type="radio" value="8" name="ignore" class="default-category">
+                                              </label>
+                                            </div>            
+                                          </li>
+                                        </ul>
+                                      </li>
+                                      <li>
+                                        <div class="checkbox">
+                                          <label>
+                                            <input type="checkbox" name="form[step1][categories][tree][]" value="9" class="category"> Art
+                                            <input type="radio" value="9" name="ignore" class="default-category">
+                                          </label>
+                                        </div>            
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ul>
+                              </div>     
+                            </div>
+                        </fieldset>     
+                      </div>
+
+
+                      .product-page .categories-tree {
+    padding: 10px;
+    padding: .625rem;
+    border: 1px solid #bbcdd2;
+    border-radius: .1875rem;
+}
+.search.search-with-icon {
+    position: relative;
+}
+.product-page .ui-widget>.form-control-label {
+    font-size: 10px;
+    font-size: .625rem;
+    font-weight: 600;
+}
+.form-control-label {
+    margin-bottom: 5px;
+    margin-bottom: .3125rem;
+    color: #363a41;
+}
+.pstaggerTagsWrapper {
+    display: none;
+    position: relative;
+    padding: 6.4px;
+    padding: .4rem;
+    padding-bottom: 0;
+    border: 1px solid #bbcdd2;
+    background: #fff;
+    width: 100%;
+}
+.pstaggerTag {
+    font-size: 12px;
+    font-size: .75rem;
+    display: inline-block;
+    padding: 3.2px 6.4px;
+    padding: .2rem .4rem;
+    margin: 0 6.4px 6.4px 0;
+    margin: 0 .4rem .4rem 0;
+    color: #25b9d7;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: #fff;
+    background-color: #25b9d7;
+}
+.pstaggerTag .pstaggerClosingCross {
+    margin: 0 0 0 6.4px;
+    margin: 0 0 0 .4rem;
+    color: #363a41;
+    text-decoration: none;
+    font-size: 0;
+}
+.pstaggerTag .pstaggerClosingCross:after {
+    font-family: Material Icons;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    vertical-align: middle;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: "\E5CD";
+    font-size: 17.008px;
+    font-size: 1.063rem;
+    vertical-align: bottom;
+}
+.product-page .hide {
+    display: none;
+}
+.product-page .categories-tree .categories-tree-actions {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-size: .625rem;
+    font-weight: 600;
+    border-bottom: 1.008px solid #bbcdd2;
+    border-bottom: .063rem solid #bbcdd2;
+}
+.product-page .categories-tree .categories-tree-actions #categories-tree-expand, .product-page .categories-tree .categories-tree-actions #categories-tree-reduce {
+    cursor: pointer;
+    display: inline !important;
+}
+.product-page .categories-tree .categories-tree-actions #categories-tree-expand {
+    display: none;
+}
+.product-page .categories-tree .categories-tree-actions .form-control-label {
+    padding-top: 5px;
+    padding-top: .3125rem;
+}
+.product-page .categories-tree .categories-tree-actions .material-icons{
+  font-size: 20px;
+    font-size: 1.25rem;
+    vertical-align: middle;
+}
+.product-page .category-tree-overflow {
+    white-space: nowrap;
+    overflow: auto;
+}
+.product-page .category-tree-overflow ul.category-tree {
+    display: inline-block;
+    min-width: 100%;
+    padding-top: 10px;
+    padding-top: .625rem;
+}
+ul.category-tree {
+    padding: 0;
+}
+.product-page .category-tree-overflow ul.category-tree .main-category {
+    font-size: 10px;
+    font-size: .625rem;
+    font-weight: 600;
+}
+ul.category-tree li {
+    list-style: none;
+    background-repeat: no-repeat;
+    background-size: 12px 12px;
+    background-position: 0 3px;
+}
+ul.category-tree .less, ul.category-tree .more {
+    background: none;
+    position: relative;
+}
+ul.category-tree .less>.checkbox, ul.category-tree .less>.radio, ul.category-tree .more>.checkbox, ul.category-tree .more>.radio {
+    cursor: pointer;
+}
+ul.category-tree li .checkbox, ul.category-tree li .radio {
+    padding-left: 20px;
+    padding-top: 0;
+}
+ul.category-tree .less>.checkbox:before, ul.category-tree .less>.radio:before {
+    content: "\E313";
+}
+ul.category-tree .less>.checkbox:before, ul.category-tree .less>.radio:before, ul.category-tree .more>.checkbox:before, ul.category-tree .more>.radio:before {
+    position: absolute;
+    font-family: Material Icons;
+    cursor: pointer;
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: #6c868e;
+    top: -4px;
+    top: -.25rem;
+    left: -1.6px;
+    left: -.1rem;
+}
+.product-page .category-tree-overflow ul.category-tree label {
+    position: relative;
+    padding-right: 24px;
+    padding-right: 1.5rem;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
+.product-page .category-tree-overflow ul.category-tree label .default-category {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+}
+.search.search-with-icon:after {
+    font-family: Material Icons;
+    font-style: normal;
+    font-size: 24px;
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    vertical-align: middle;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-feature-settings: "liga";
+    font-feature-settings: "liga";
+    content: "\E8B6";
+    color: #6c868e;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 400;
+    position: absolute;
+    right: 5px;
+    right: .3125rem;
+    top: 50%;
+    margin-top: -11px;
+    margin-top: -.6875rem;
+}
